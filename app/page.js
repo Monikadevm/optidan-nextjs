@@ -1,9 +1,7 @@
-import Image from "next/image";
 import Banner from "./components/Banner";
 import Partners from "./components/Partners";
 import WhyChooseUs from "./components/WhyChooseUs";
 import OurServices from "./components/OurServices";
-import Footer from "./components/Footer";
 import OptidanAi from "./components/OptidanAi";
 import Speciality from "./components/Speciality";
 import HowItWorks from "./components/HowItWorks";
@@ -25,8 +23,8 @@ export default function Home() {
       <DidYouKnow />
       <OptidanAi />
       <Speciality />
-      {/* <OurBlogs/> 
-      <AiSeo/> */}
+      <OurBlogs />
+      <AiSeo />
       <GetInTouch />
     </>
   );
